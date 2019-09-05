@@ -1,0 +1,13 @@
+name: finc621-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - pandas
+    - pandas_datareader
+    - matplotlib
+    - scipy
+    - http://github.com/matplotlib/mpl_finance/archive/master.zip
